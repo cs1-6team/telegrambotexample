@@ -7,3 +7,4 @@ Bugungi darsda oddiy telegram botni tushuntirib berdim.
 + Oddiy kammandalar, ex: /start, /menu
 + KeyboardButton va InlineKeyboardButton
 + Async programming
++ Why need to use .env?
