@@ -4,9 +4,10 @@ from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import asyncio
 import logging
 import sys
+import os
 
 
-bot = Bot("8241916300:AAEFW_Y4vgppqU5AduiYqy9-pYJLn5ZI9tg")
+bot = Bot(token=os.environ['BOT_TOKEN'])
 dp = Dispatcher()
 
 
